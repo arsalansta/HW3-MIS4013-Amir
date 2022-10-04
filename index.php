@@ -15,54 +15,37 @@
     
     
     
+        <a class="nav-link" href="course-section.php">course-section</a>
     
+		
+	
+        <a class="nav-link" href="courses.php">Courses</a>
     
+	
+	
+        <a class="nav-link" href="instructor-cards.php">instructor cards</a>
     
+	
+        <a class="nav-link" href="instructor-section.php">instructor-section</a>
     
-    
-    
-        <h1>Instructors</h1>
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>ID</th>
-      <th>Name</th>
-    </tr>
-  </thead>
-  <tbody>
-    <?php
-$servername = "localhost";
-$username = "amiresta_amirsta";
-$password = "z]0qP-?ge@PG";
-$dbname = "amiresta_HW3-instructors-database";
+		
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
+        <a class="nav-link" href="instructors.php">instructors</a>
 
-$sql = "SELECT instructor_id, instructor_name from instructor";
-$result = $conn->query($sql);
+		
+		
+	
+        <a class="nav-link" href="sections.php">sections</a>
+    
 
-if ($result->num_rows > 0) {
-  // output data of each row
-  while($row = $result->fetch_assoc()) {
-?>
-  <tr>
-    <td><?=$row["instructor_id"]?></td>
-    <td><?=$row["instructor_name"]?></td>
-  </tr>
-<?php
-  }
-} else {
-  echo "0 results";
-}
-$conn->close();
-?>
-  </tbody>
-    </table>
+  </br>
+    
+    
+    
+    
+    
+    
+       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
