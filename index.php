@@ -15,17 +15,18 @@
     
             <a class="nav-link" href="instructors.php">instructors</a>
 	  
+	   <br><br>
 	    <a class="nav-link" href="courses.php">Courses</a>
-	  
+	   <br><br>
 	  
 	     <a class="nav-link" href="sections.php">sections</a>
-    
+     <br><br>
         <a class="nav-link" href="course-section.php">course-section</a>
-    
+     <br><br>
 		 <a class="nav-link" href="instructor-section.php">instructor-section</a>
 	
       
-    
+     <br><br>
 	
 	
         <a class="nav-link" href="instructor-cards.php">instructor cards</a>
@@ -34,7 +35,7 @@
        
     
 		
-
+ <br><br>
 
 
 		
