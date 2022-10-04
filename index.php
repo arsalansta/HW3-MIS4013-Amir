@@ -34,7 +34,6 @@
 
 		
 		
-	
         <a class="nav-link" href="sections.php">sections</a>
     
 
