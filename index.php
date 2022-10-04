@@ -10,31 +10,36 @@
   </head>
   <body>
 
+    <br><br>
     
     
-    
-    
+            <a class="nav-link" href="instructors.php">instructors</a>
+	  
+	    <a class="nav-link" href="courses.php">Courses</a>
+	  
+	  
+	     <a class="nav-link" href="sections.php">sections</a>
     
         <a class="nav-link" href="course-section.php">course-section</a>
     
-		
+		 <a class="nav-link" href="instructor-section.php">instructor-section</a>
 	
-        <a class="nav-link" href="courses.php">Courses</a>
+      
     
 	
 	
         <a class="nav-link" href="instructor-cards.php">instructor cards</a>
     
 	
-        <a class="nav-link" href="instructor-section.php">instructor-section</a>
+       
     
 		
 
-        <a class="nav-link" href="instructors.php">instructors</a>
+
 
 		
 		
-        <a class="nav-link" href="sections.php">sections</a>
+     
     
 
   </br>
