@@ -18,14 +18,11 @@
     
       
       
-    </ul>
    
-  </div>
 </nav> 	 
 		 
 		 
-		 
-		 <title>Homework 2</title>
+		
   <style>
 .center {
   margin: auto;
