@@ -13,16 +13,30 @@
  
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="mis4013.hw3.amir.amiresta.oucreate.com">Homework 3 HomePage</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="mis4013.hw3.amir.amiresta.oucreate.com">Home </a>
-      </li>
+ 
       <li class="nav-item">
+        <a class="nav-link" href="course-section.php">course-section</a>
+      </li>
+		
+	<li class="nav-item">
+        <a class="nav-link" href="courses.php">Courses</a>
+      </li>
+	
+	<li class="nav-item">
+        <a class="nav-link" href="https://github.com/arsalansta/HW3-MIS4013-Amir/blob/32a108a0feeec291925bfa30061a3fb7c88ef766/instructor-cards.php">instructor cards</a>
+      </li>
+		
+	<li class="nav-item">
+        <a class="nav-link" href="http://mis4013.hw1.amiresta.oucreate.com">HomeWork1</a>
+      </li>
+		
+		
+	<li class="nav-item">
+        <a class="nav-link" href="http://mis4013.hw1.amiresta.oucreate.com">HomeWork1</a>
+      </li>
+		
+		
+	<li class="nav-item">
         <a class="nav-link" href="http://mis4013.hw1.amiresta.oucreate.com">HomeWork1</a>
       </li>
       
