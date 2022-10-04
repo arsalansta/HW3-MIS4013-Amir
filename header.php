@@ -38,7 +38,7 @@
 		
 		
 	<li class="nav-item">
-        <a class="nav-link" href="sections.php">sections.php</a>
+        <a class="nav-link" href="sections.php">sections</a>
       </li>
       
       
