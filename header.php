@@ -15,31 +15,7 @@
 		
   <a class="navbar-brand" href="http://mis4013.hw3.amir.amiresta.oucreate.com">Homework 3 HomePage</a>
  
-      <li class="nav-item">
-        <a class="nav-link" href="course-section.php">course-section</a>
-      </li>
-		
-	<li class="nav-item">
-        <a class="nav-link" href="courses.php">Courses</a>
-      </li>
-	
-	<li class="nav-item">
-        <a class="nav-link" href="instructor-cards.php">instructor cards</a>
-      </li>
-		
-	<li class="nav-item">
-        <a class="nav-link" href="instructor-section.php">instructor-section</a>
-      </li>
-		
-		
-	<li class="nav-item">
-        <a class="nav-link" href="instructors.php">instructors</a>
-      </li>
-		
-		
-	<li class="nav-item">
-        <a class="nav-link" href="sections.php">sections</a>
-      </li>
+    
       
       
     </ul>
