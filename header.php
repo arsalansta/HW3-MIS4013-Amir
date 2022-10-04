@@ -23,21 +23,21 @@
       </li>
 	
 	<li class="nav-item">
-        <a class="nav-link" href="https://github.com/arsalansta/HW3-MIS4013-Amir/blob/32a108a0feeec291925bfa30061a3fb7c88ef766/instructor-cards.php">instructor cards</a>
+        <a class="nav-link" href="instructor-cards.php">instructor cards</a>
       </li>
 		
 	<li class="nav-item">
-        <a class="nav-link" href="http://mis4013.hw1.amiresta.oucreate.com">HomeWork1</a>
-      </li>
-		
-		
-	<li class="nav-item">
-        <a class="nav-link" href="http://mis4013.hw1.amiresta.oucreate.com">HomeWork1</a>
+        <a class="nav-link" href="instructor-section.php">instructor-section</a>
       </li>
 		
 		
 	<li class="nav-item">
-        <a class="nav-link" href="http://mis4013.hw1.amiresta.oucreate.com">HomeWork1</a>
+        <a class="nav-link" href="instructors.php">instructors</a>
+      </li>
+		
+		
+	<li class="nav-item">
+        <a class="nav-link" href="sections.php">sections.php</a>
       </li>
       
       
