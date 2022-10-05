@@ -32,7 +32,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT student_ID, Student_name from "OU Students";
+$sql = "SELECT student_ID, Student_name from "OUStudents";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
