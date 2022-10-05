@@ -33,7 +33,7 @@
 		
  <br><br>
 
-<a class="nav-link" href="student.php">students</a>
+<a class="nav-link" href="students.php">students</a>
 		
 		
      
