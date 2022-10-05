@@ -31,7 +31,7 @@
        
     
 		
- <br><br>
+ <br>
 
 <a class="nav-link" href="students.php">students</a>
 		
@@ -40,10 +40,11 @@
     
 
   </br>
+	<a class="nav-link" href="JobsAndRoles.php">Jobs And Roles</a>
 	
 	
     
-    
+    <br>
     
     
     
