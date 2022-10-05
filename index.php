@@ -39,11 +39,12 @@
 
   </br>
 	
-	
-    <div class="center">Welcome <?php echo $_POST["name"]; ?>
-		</br>
-	
-	your email address is: <?php echo $_POST["email"]; ?> </div>
+	      <h2 > POST - Function </h2>
+<form action="handlepost.php" method="post">
+<p > Name: <input type="text" name="name"></p><br>
+<p > E-mail: <input type="text" name="email"></p><br>
+<p "><input type="submit">
+                         </p>
 
     
     
