@@ -24,6 +24,8 @@
 	
 	
         <a class="nav-link" href="instructor-cards.php">instructor cards</a>
+	  
+	  
     
 	
        
@@ -31,7 +33,7 @@
 		
  <br><br>
 
-
+<a class="nav-link" href="student.php">students</a>
 		
 		
      
