@@ -6,11 +6,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Instructors</title>
+    <title>Students</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Instructors</h1>
+    <h1>Students</h1>
 <table class="table table-striped">
   <thead>
     <tr>
@@ -32,7 +32,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT instructor_id, instructor_name from instructor";
+$sql = "SELECT student_id, student_name from oustudent";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -40,8 +40,10 @@ if ($result->num_rows > 0) {
   while($row = $result->fetch_assoc()) {
 ?>
   <tr>
-    <td><?=$row["instructor_id"]?></td>
-    <td><a href="instructor-section.php?id=<?=$row["instructor_id"]?>"><?=$row["instructor_name"]?></a></td>
+    <td><?=$row["student_id"]?></td>
+    <td><?=$row["student_name"]?></td>
+   
+  
   </tr>
 <?php
   }
